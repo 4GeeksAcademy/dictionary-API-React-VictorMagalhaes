@@ -10,3 +10,12 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#meaning{
+    height: 50px;
+    width: 300px;
+
+}
+.card{
+    align-items: center;
+    margin-top: 100px;
+}
