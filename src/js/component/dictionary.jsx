@@ -14,7 +14,7 @@ const Dictionary = () => {
 	
 		let response = await res.json()
 		console.log(response)
-		let meaningText = response [0] ["meanings"] [0].definitions[0].definition
+		let meaningText = response[0]["meanings"][0].definitions[0].definition
 		setMeaning(meaningText)
 	
 	  }
@@ -27,11 +27,10 @@ const Dictionary = () => {
 	
 	  return (
 		<div class="card text-center">
-			<div class="card-header ">
-			  4Geeks Dictionary
-			</div>
+			
 		  <div class="card-body">
 			<h5 class="body">{word}</h5>
+			
 			<p className="meaning">{meaning}</p>
 			  <input 
 			  type="text"
@@ -40,7 +39,7 @@ const Dictionary = () => {
 			  name="word"
 			  />			
 		  </div>
-		  <button class="btn btn-primary m-5" id="meaning" type="button" onClick={getMeaning} >Get the Meaning</button>
+		  <button class="btn btn-primary m-5" id="button" type="button" onClick={getMeaning} >Get the Meaning</button>
 		
 		</div>
 	  )

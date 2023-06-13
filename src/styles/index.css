@@ -10,7 +10,14 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-#meaning{
+
+.body{
+    font-size: 50px;
+    font-style: bold;
+    margin-top: 20px;
+
+}
+#button{
     height: 50px;
     width: 300px;
 
@@ -18,4 +25,24 @@
 .card{
     align-items: center;
     margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 1000px;
+    border-color: black;
 }
+.meaning{
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+input [type=text] {
+    background-color: rgb(197, 199, 202);
+}
+.dictionary{
+    background-color: #6d6dcf;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+

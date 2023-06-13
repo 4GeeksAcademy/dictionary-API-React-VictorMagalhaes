@@ -10,7 +10,7 @@ const Home = () => {
 
 
 	return (
-		<div className="container">
+		<div className="dictionary">
 			<h1>
 				<Dictionary/>
 				<Footer/>
